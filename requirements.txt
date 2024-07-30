@@ -1,0 +1,6 @@
+pandas
+plotly.express
+streamlit
+sklearn
+scikit-learn
+datetime
