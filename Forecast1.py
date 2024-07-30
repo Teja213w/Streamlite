@@ -2,13 +2,12 @@ import pandas as pd
 import pickle
 import plotly.express as px
 import streamlit as st
-from datetime import date, datetime
+from datetime import date
 
 # Load models
 linear_model = pickle.load(open('linear_model.pkl', 'rb'))
 knn_model = pickle.load(open('knn_model.pkl', 'rb'))
 DT_model = pickle.load(open('DT_model.pkl', 'rb'))
-#XG_model = pickle.load(open('XG_model.pkl','rb'))
 
 # Streamlit app title and header
 st.title("Demand Forecasting")
