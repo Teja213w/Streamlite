@@ -4,3 +4,4 @@ streamlit
 sklearn
 scikit-learn
 datetime
+pickle5
